@@ -1,0 +1,260 @@
+/* line 13, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_base.scss */
+.btn-warning {
+  background-color: #c69963;
+  border: none;
+  text-transform: uppercase;
+  color: #fff; }
+  /* line 19, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_base.scss */
+  .btn-warning:hover {
+    background-color: #B28451; }
+  /* line 23, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_base.scss */
+  .btn-warning:active {
+    background-color: #B28451; }
+
+/* line 29, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_base.scss */
+.js-show {
+  opacity: 1; }
+
+/* line 4, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_typography.scss */
+.mb-6 {
+  margin-bottom: 2rem; }
+
+/* line 5, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_typography.scss */
+.mb-md {
+  margin-bottom: 3rem; }
+
+/* line 6, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_typography.scss */
+.mb-lg {
+  margin-bottom: 4rem; }
+
+/* line 7, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_typography.scss */
+.mb-7 {
+  margin-bottom: 8rem; }
+
+/*
+0 - 576px:      Phone
+576 - 768px:    Tablet portrait
+768 - 992px:    Tablet landscape
+992 - 1200px :  Big desktop
+
+$breakpoint arguement choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+
+ORDER: Base + > page layout > components
+
+1rem = 16px
+*/
+/* line 1, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+.main-header {
+  background-image: url(https://images.pexels.com/photos/39853/woman-girl-freedom-happy-39853.jpeg?cs=srgb&dl=dawn-sunset-beach-woman-39853.jpg&fm=jpg);
+  padding: 1rem 2rem 4rem; }
+  /* line 3, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+  .main-header nav {
+    margin-bottom: 1rem; }
+  /* line 11, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+  .main-header .btn-outline-secondary {
+    color: #fff;
+    border: 1px solid #fff;
+    margin-left: 1rem; }
+
+/* line 25, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+#about-section .section-a {
+  margin: auto; }
+
+/* line 29, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+#about-section .about-img {
+  width: 90%; }
+  @media only screen and (max-width: 62rem) {
+    /* line 29, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+    #about-section .about-img {
+      margin-bottom: 2rem; } }
+
+/* line 38, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+#about-section .lead {
+  margin-bottom: 0; }
+
+/* line 44, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+#about-section .quote {
+  background: #167586;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top left, #167586, #1B4D54);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top left, #167586, #1B4D54);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+  background-color: #1B4D54;
+  text-align: center;
+  padding: 2rem 4rem;
+  padding-top: 3rem; }
+  /* line 51, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+  #about-section .quote__name {
+    float: right;
+    position: relative;
+    top: 1.8rem;
+    right: .5rem;
+    font-size: 1.5rem; }
+
+/* line 62, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+#about-section .social a {
+  color: #4B444C;
+  transition: .2s; }
+  /* line 66, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+  #about-section .social a:hover {
+    color: #c69963; }
+
+/* line 75, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+#home-icon-section {
+  background: #167586;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #167586, #1B4D54);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #167586, #1B4D54);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+  text-align: center; }
+  /* line 80, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+  #home-icon-section .border-line {
+    border-bottom: 1px solid white;
+    margin: 3rem 26rem; }
+  @media only screen and (max-width: 62rem) {
+    /* line 75, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+    #home-icon-section {
+      padding: 0 5rem; } }
+  /* line 89, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+  #home-icon-section h4 {
+    font-size: 1.2rem; }
+  /* line 93, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+  #home-icon-section p {
+    margin-bottom: 1rem; }
+    /* line 96, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+    #home-icon-section p.third {
+      margin-bottom: 2.5rem; }
+      @media only screen and (max-width: 48rem) {
+        /* line 96, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+        #home-icon-section p.third {
+          margin-bottom: 1rem; } }
+  /* line 105, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+  #home-icon-section button {
+    background-color: #c69963;
+    border: none;
+    text-transform: uppercase; }
+    @media only screen and (max-width: 48rem) {
+      /* line 105, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+      #home-icon-section button {
+        margin-bottom: 2rem; } }
+
+/* line 118, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+#next-step {
+  text-align: center;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("https://images.pexels.com/photos/985266/pexels-photo-985266.jpeg?cs=srgb&dl=close-up-photo-of-blue-petaled-flowers-985266.jpg&fm=jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+  /* line 128, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+  #next-step button {
+    padding: .8rem 2rem;
+    margin-right: 2rem;
+    text-transform: uppercase; }
+  /* line 134, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+  #next-step .btn-outline-secondary {
+    color: white;
+    border: 2px solid white; }
+
+/* line 143, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+#testimonials-section {
+  padding: 0 8rem;
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 2rem; }
+  @media only screen and (max-width: 62rem) {
+    /* line 143, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+    #testimonials-section {
+      padding: 0; } }
+  /* line 154, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+  #testimonials-section .testimonial-name {
+    color: #c69963;
+    font-size: 1.5rem; }
+
+/* line 162, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+#contact-section {
+  background: #B28451;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #c69963, #B28451);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #c69963, #B28451);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+  background: linear-gradient(270deg, transparent, black), url("https://images.pexels.com/photos/943905/pexels-photo-943905.jpeg?cs=srgb&dl=white-petaled-flowers-943905.jpg&fm=jpg");
+  background-position: center;
+  background-size: cover; }
+  /* line 169, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+  #contact-section h1 {
+    font-size: 3rem; }
+  /* line 173, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+  #contact-section .text-grey {
+    font-size: 1.6rem;
+    margin-bottom: 0; }
+  /* line 179, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+  #contact-section .media {
+    margin-bottom: 1rem; }
+  /* line 183, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+  #contact-section .media-left {
+    font-size: 2rem;
+    margin-right: 2rem; }
+    /* line 187, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+    #contact-section .media-left .fas {
+      color: #fff; }
+  /* line 192, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+  #contact-section .contact-option_text {
+    font-size: 1.2rem; }
+
+/* line 200, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+#footer-section {
+  background: #167586;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top left, #167586, #1B4D54);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top left, #167586, #1B4D54);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff; }
+  /* line 204, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+  #footer-section button {
+    padding: 1rem 2rem;
+    border-radius: 1rem; }
+    @media only screen and (max-width: 36rem) {
+      /* line 204, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+      #footer-section button {
+        margin-bottom: 2rem; } }
+  @media only screen and (max-width: 36rem) {
+    /* line 213, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+    #footer-section .footer-links {
+      text-align: center; } }
+  /* line 220, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+  #footer-section .social {
+    text-align: right;
+    margin: auto 0;
+    font-size: 1.5rem; }
+    @media only screen and (max-width: 36rem) {
+      /* line 220, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+      #footer-section .social {
+        text-align: center; } }
+    /* line 231, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+    #footer-section .social a {
+      color: #fff;
+      transition: .2s; }
+      /* line 235, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+      #footer-section .social a:hover {
+        color: #c69963; }
+  /* line 241, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+  #footer-section p {
+    color: silver; }
+    @media only screen and (max-width: 36rem) {
+      /* line 241, /Users/tylertolbert/Documents/Web Design/Renee Brown Pjt/sass/_home.scss */
+      #footer-section p {
+        text-align: center; } }
+
+/*# sourceMappingURL=main.css.map */
