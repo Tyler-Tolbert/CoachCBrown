@@ -1,12 +1,15 @@
-.btn-warning {
-  background-color: #c69963;
-  border: none;
-  text-transform: uppercase;
-  color: #fff; }
-  .btn-warning:hover {
-    background-color: #B28451; }
-  .btn-warning:active {
-    background-color: #B28451; }
+.btn {
+  font-family: "Varela Round", sans-serif; }
+  .btn-warning {
+    background-color: #c69963;
+    border: none;
+    text-transform: uppercase;
+    color: #fff; }
+    .btn-warning:hover {
+      background-color: #B28451;
+      color: #fff; }
+    .btn-warning:active {
+      background-color: #B28451; }
 
 .js-show {
   opacity: 1; }
@@ -40,20 +43,34 @@ ORDER: Base + > page layout > components
 1rem = 16px
 */
 .main-header {
-  background-image: url(https://images.pexels.com/photos/39853/woman-girl-freedom-happy-39853.jpeg?cs=srgb&dl=dawn-sunset-beach-woman-39853.jpg&fm=jpg);
+  font-family: "Varela Round", sans-serif;
+  color: #fff;
+  background: linear-gradient(270deg, rgba(0, 0, 0, 0), black), url("https://images.pexels.com/photos/1381679/pexels-photo-1381679.jpeg?cs=srgb&dl=close-up-photo-of-purple-lilac-flowers-1381679.jpg&fm=jpg");
+  background-position: bottom;
+  background-size: cover;
   padding: 1rem 2rem 4rem; }
   .main-header nav {
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+    font-family: "Dancing Script", cursive; }
+  .main-header p {
+    font-size: 1.8rem; }
   .main-header .btn-outline-secondary {
     color: #fff;
     border: 1px solid #fff;
     margin-left: 1rem; }
+    .main-header .btn-outline-secondary:hover {
+      background-color: #fff;
+      color: black; }
 
 #about-section .section-a {
   margin: auto; }
 
+#about-section h1 {
+  font-family: "Varela Round", sans-serif;
+  font-size: 4rem; }
+
 #about-section .about-img {
-  width: 90%; }
+  width: 80%; }
   @media only screen and (max-width: 62rem) {
     #about-section .about-img {
       margin-bottom: 2rem; } }
@@ -74,11 +91,12 @@ ORDER: Base + > page layout > components
   padding: 2rem 4rem;
   padding-top: 3rem; }
   #about-section .quote__name {
+    font-family: "Dancing Script", cursive;
     float: right;
     position: relative;
     top: 1.8rem;
     right: .5rem;
-    font-size: 1.5rem; }
+    font-size: 1.8rem; }
 
 #about-section .social a {
   color: #4B444C;
@@ -93,14 +111,19 @@ ORDER: Base + > page layout > components
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #167586, #1B4D54);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: #fff;
-  text-align: center; }
+  color: #fff; }
   #home-icon-section .border-line {
     border-bottom: 1px solid white;
     margin: 3rem 26rem; }
   @media only screen and (max-width: 62rem) {
     #home-icon-section {
       padding: 0 5rem; } }
+  #home-icon-section .header {
+    font-size: 2.4rem; }
+  #home-icon-section h2,
+  #home-icon-section h3 {
+    text-align: center;
+    font-family: "Varela Round", sans-serif; }
   #home-icon-section h4 {
     font-size: 1.2rem; }
   #home-icon-section p {
@@ -113,37 +136,34 @@ ORDER: Base + > page layout > components
   #home-icon-section button {
     background-color: #c69963;
     border: none;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    padding: 1rem 2rem; }
     @media only screen and (max-width: 48rem) {
       #home-icon-section button {
         margin-bottom: 2rem; } }
 
 #next-step {
   text-align: center;
-  color: white;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("https://images.pexels.com/photos/985266/pexels-photo-985266.jpeg?cs=srgb&dl=close-up-photo-of-blue-petaled-flowers-985266.jpg&fm=jpg");
+  color: #333;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  font-family: "Varela Round", sans-serif; }
+  #next-step h2 {
+    font-size: 2.4rem; }
   #next-step button {
     padding: .8rem 2rem;
     margin-right: 2rem;
     text-transform: uppercase; }
+    @media only screen and (max-width: 36rem) {
+      #next-step button {
+        margin-right: 0; } }
   #next-step .btn-outline-secondary {
-    color: white;
-    border: 2px solid white; }
-
-#testimonials-section {
-  padding: 0 8rem;
-  text-align: center;
-  font-size: 1.6rem;
-  line-height: 2rem; }
-  @media only screen and (max-width: 62rem) {
-    #testimonials-section {
-      padding: 0; } }
-  #testimonials-section .testimonial-name {
-    color: #c69963;
-    font-size: 1.5rem; }
+    color: #333;
+    border: 2px solid #333; }
+    #next-step .btn-outline-secondary:hover {
+      color: #fff;
+      background-color: #333; }
 
 #contact-section {
   background: #B28451;
