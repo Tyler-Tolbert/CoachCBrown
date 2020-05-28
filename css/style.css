@@ -54,6 +54,9 @@ ORDER: Base + > page layout > components
     font-family: "Dancing Script", cursive; }
   .main-header p {
     font-size: 1.8rem; }
+  .main-header button {
+    text-transform: uppercase;
+    padding: .7rem 1.5rem; }
   .main-header .btn-outline-secondary {
     color: #fff;
     border: 1px solid #fff;
@@ -164,6 +167,24 @@ ORDER: Base + > page layout > components
     #next-step .btn-outline-secondary:hover {
       color: #fff;
       background-color: #333; }
+    #next-step .btn-outline-secondary a {
+      color: inherit; }
+
+#external-section {
+  padding: 0 10rem;
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 1.9rem; }
+  @media only screen and (max-width: 62rem) {
+    #external-section {
+      padding: 0; } }
+  #external-section .external-name {
+    color: #c69963;
+    font-size: 1.5rem;
+    margin-bottom: 1.6rem; }
+  #external-section button {
+    padding: .7rem 1.5rem;
+    text-transform: uppercase; }
 
 #contact-section {
   background: #B28451;
