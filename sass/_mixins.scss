@@ -61,6 +61,10 @@ ORDER: Base + > page layout > components
 */
 
 @mixin respond($breakpoint) {
+    
+    @if $breakpoint == iphone {
+        @media only screen and (max-width: 30.8125rem) { @content };  //493px
+    }
     @if $breakpoint == phone {
         @media only screen and (max-width: 36rem) { @content };    //576px
     }

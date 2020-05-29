@@ -49,14 +49,23 @@ ORDER: Base + > page layout > components
   background-position: bottom;
   background-size: cover;
   padding: 1rem 2rem 4rem; }
+  @media only screen and (max-width: 30.8125rem) {
+    .main-header {
+      text-align: center; } }
   .main-header nav {
     margin-bottom: 1rem;
     font-family: "Dancing Script", cursive; }
+  @media only screen and (max-width: 30.8125rem) {
+    .main-header h1 {
+      font-size: 3rem; } }
   .main-header p {
     font-size: 1.8rem; }
   .main-header button {
     text-transform: uppercase;
     padding: .7rem 1.5rem; }
+  @media only screen and (max-width: 30.8125rem) {
+    .main-header .btn-warning {
+      margin-bottom: 1rem; } }
   .main-header .btn-outline-secondary {
     color: #fff;
     border: 1px solid #fff;
@@ -93,6 +102,8 @@ ORDER: Base + > page layout > components
   text-align: center;
   padding: 2rem 4rem;
   padding-top: 3rem; }
+  #about-section .quote .lead {
+    font-size: 1.3rem; }
   #about-section .quote__name {
     font-family: "Dancing Script", cursive;
     float: right;
@@ -121,6 +132,9 @@ ORDER: Base + > page layout > components
   @media only screen and (max-width: 62rem) {
     #home-icon-section {
       padding: 0 5rem; } }
+  @media only screen and (max-width: 36rem) {
+    #home-icon-section {
+      padding: 0; } }
   #home-icon-section .header {
     font-size: 2.4rem; }
   #home-icon-section h2,
@@ -198,7 +212,7 @@ ORDER: Base + > page layout > components
   background-position: center;
   background-size: cover; }
   #contact-section h1 {
-    font-size: 3rem; }
+    font-size: 2.6rem; }
   #contact-section .text-grey {
     font-size: 1.6rem;
     margin-bottom: 0; }
