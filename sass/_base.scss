@@ -9,28 +9,30 @@ $color-grey-dark-1: #4B444C;
 $color-grey-dark-2: #ADA593;
 $color-grey-dark-3: #CBC4B7;
 
-$font-primary: 'Varela Round', sans-serif;
-$font-secondary: 'Dancing Script', cursive;
+$font-primary: 'Varela Round',
+sans-serif;
+$font-secondary: 'Dancing Script',
+cursive;
 
 .btn {
-    
+
     font-family: $font-primary;
-    
+
     &-warning {
         background-color: $color-primary;
         border: none;
         text-transform: uppercase;
         color: #fff;
-    
-    &:hover {
-        background-color: $color-primary-dark;
-        color: #fff;
+
+        &:hover {
+            background-color: $color-primary-dark;
+            color: #fff;
+        }
+
+        &:active {
+            background-color: $color-primary-dark;
+        }
     }
-    
-    &:active {
-        background-color: $color-primary-dark;
-    }
-}
 }
 
 

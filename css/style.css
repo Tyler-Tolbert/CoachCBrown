@@ -129,10 +129,7 @@ ORDER: Base + > page layout > components
   #home-icon-section .border-line {
     border-bottom: 1px solid white;
     margin: 3rem 26rem; }
-  @media only screen and (max-width: 62rem) {
-    #home-icon-section {
-      padding: 0 5rem; } }
-  @media only screen and (max-width: 36rem) {
+  @media only screen and (max-width: 48rem) {
     #home-icon-section {
       padding: 0; } }
   #home-icon-section .header {
