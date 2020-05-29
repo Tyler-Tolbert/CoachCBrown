@@ -11,7 +11,7 @@
 
     h1 {
         @include respond(iphone) {
-            font-size: 3rem;
+            font-size: 2.3rem;
         }
     }
 
@@ -53,9 +53,6 @@
     }
 
 }
-
-
-
 
 
 
@@ -168,6 +165,7 @@
 
         @include respond(tab-port) {
             margin-bottom: 2rem;
+            margin-top: 1rem;
         }
 
     }
